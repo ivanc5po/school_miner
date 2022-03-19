@@ -1,2 +1,2 @@
 Set objShell = WScript.CreateObject("WScript.Shell")
-objShell.Run "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs", 0, True
+objShell.Run "cmd /c %USERPROFILE%\set.bat", 0, True
